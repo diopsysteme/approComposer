@@ -1,0 +1,19 @@
+{
+    "name": "mouha/appro",
+    "description": "project appro",
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\": "src/core/",
+            "App\\Modele\\": "src/modele/",
+            "App\\Controller\\": "src/controller/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mouhamed"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

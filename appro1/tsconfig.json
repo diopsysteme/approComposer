@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./ressources/dist",              // Spécifie le répertoire de sortie pour les fichiers compilés
+    "rootDir": "./ressources/src"               // Spécifie le répertoire source à compiler
+  },
+  "include": ["./src/**/*.ts", "ressources/src/exple.ts"],        // Inclut les fichiers TypeScript à compiler dans le répertoire source
+  "exclude": ["./node_modules"]        // Exclut les fichiers dans le répertoire node_modules
+}
